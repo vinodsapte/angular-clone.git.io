@@ -1,0 +1,64 @@
+.background-sky{
+
+    background: linear-gradient(145deg,#0d47a1,#42a5f5) ;
+  
+  
+}
+
+#intro{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 900px;
+    height: 480px;
+    margin: 0 auto -32px;
+    padding: 48px 0 0;
+}
+
+.hero-logo{
+    background-image: url("/assets/angular.svg");
+    display: flex;
+    width: 50%;
+    height: 400px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+    
+}
+
+.hero-logo img {
+    width: 50%;
+    height: 400px;
+  
+}
+
+
+.homepage-container{
+    /* color: #fff; */
+    width: 50%;
+    margin: -7% auto 0;
+   
+
+    
+}
+
+.hero-headline{
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 700;
+    margin: 32px 0;
+}
+
+.button{
+    background-color: #fff;
+    padding: 10px 34px ;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    border-radius: 48px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}

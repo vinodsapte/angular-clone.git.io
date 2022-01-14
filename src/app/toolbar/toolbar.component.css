@@ -1,0 +1,108 @@
+
+input#btn{
+    display: none;
+}
+
+.btnIcon{
+ height: 22px;
+ width: 22px;
+ position: absolute;
+ z-index: 99;
+ top: 22px;
+ left: 15px;
+ transition: all 0.3s;
+ cursor: pointer;
+}
+
+.spinner {
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+.spinner.middle ,
+.spinner.bottom{
+    margin-top: 3px;
+}
+
+.navbar{
+    background: #1976d2;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* position: fixed; */
+    /* top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 30%); */
+}
+
+.button1 {
+    background: #1976d2;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-left: 15px; 
+    height: 40px;
+    width: 50px;
+}
+
+.logo{
+    margin-left: 15px;
+
+}
+
+.far{
+    color: #fff;
+    font-weight: 700;
+}
+
+img{
+    width: 150px;
+    aspect-ratio: auto 150 / 40;
+
+}
+
+
+
+.navbar-list{
+    margin-left: 8px;
+}
+
+ 
+
+
+
+.navbar-list button{
+    background: #1976d2;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px; 
+    height: 35px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.navbar-list button:hover{
+    background: hsla(0,0%,100%,.15);
+    
+}
+
+
+.navbar-right{
+    margin-left: 100px;
+}
+
+.navbar-right input{
+    border: none;
+    border-radius: 100px;
+    padding: 5px 16px;
+    margin-left: 8px;
+    width: 180px;
+    max-width: 240px;
+    height: 50%;
+}

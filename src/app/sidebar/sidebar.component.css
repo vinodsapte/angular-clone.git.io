@@ -1,0 +1,95 @@
+/* .btnIcon {
+    background: white;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    z-index: 20;
+    top: 22px;
+    left: 15px;
+} */
+
+
+#vertical_sidebar{
+    background-color: #f2f2f2;
+    border-right: 1px solid #dbdbdb;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    padding: 25px;
+    overflow: auto;
+    /* transform: translateX(-250px);
+    transition: transform 250ms ease-in-out; */
+   
+    
+}
+
+/* 
+#btn:checked ~ #vertical_sidebar{
+transform: translateX(0px);
+
+} */
+
+#vertical_sidebar a{
+    display: block;
+    color: #000;
+    text-decoration:none;
+    padding: 8px 10px;
+}
+
+#vertical_sidebar a:hover{
+    background:#dbdbdb;
+    color:#1669bb;
+    padding: 8px;
+}
+
+
+
+
+
+
+#vertical_sidebar  li{
+    list-style-type: none;
+    margin-left: -20px;
+ 
+}
+
+#vertical_sidebar ul li a{
+    text-decoration: none;
+    position: relative;
+    font-size: 16px; 
+    line-height: 28px;
+    font-weight: 400;
+
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+
+}
+
+#vertical_sidebar ul li a i{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: transform 0.4s;
+
+}
+
+/* #vertical_sidebar ul li a i.rotate{
+    transform: translateY(-50%) rotate(90deg);
+} */
+
+#vertical_sidebar ul ul li a{
+    display: none;
+}
+
+#vertical_sidebar ul ul li a .showMenu{
+    display: block;
+}
+
+
+
+
